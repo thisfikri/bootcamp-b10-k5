@@ -22,9 +22,9 @@ JSON digunakan pada REST API karena:
 
 ## Aplikasi Data Programmer
 
-[SS1](https://github.com/thisfikri/bootcamp-b10-k5/blob/master/aplikasi-data-programmers/Screenshot_20190525-190941.png)
+[Screenshot 1](https://github.com/thisfikri/bootcamp-b10-k5/blob/master/aplikasi-data-programmers/Screenshot_20190525-190941.png)
 
-[SS2](https://github.com/thisfikri/bootcamp-b10-k5/blob/master/aplikasi-data-programmers/Screenshot_20190525-191016.png)
+[Screenshot 2](https://github.com/thisfikri/bootcamp-b10-k5/blob/master/aplikasi-data-programmers/Screenshot_20190525-191016.png)
 
 *Note: maaf kalau screenshotnya hanya 2*
 
