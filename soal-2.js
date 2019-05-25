@@ -4,11 +4,11 @@ function beetweenDays(date1, date2) {
     date1Day, date2Day, date1Year, date1Month,
     date2Day, date2Year, date2Month, i = 0, finalOutput = '';
 
-  date1Day = date1Day.split('-');
+  date1Day = date1.split('-');
   date1Year = date1Day[0].parseInt();
   date1Month = date1Day[1].parseInt();
   date1Day = date1Day[date1Day.length - 1].parseInt();
-  date2Day = date2Day.split('-');
+  date2Day = date2.split('-');
   date2Day = date2Day[date2Day.length - 1].parseInt();
   date2Year = date2Day[0].parseInt();
   date2Month = date2Day[1].parseInt();
