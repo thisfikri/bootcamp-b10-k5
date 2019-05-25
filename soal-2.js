@@ -5,13 +5,14 @@ function beetweenDays(date1, date2) {
     date2Day, date2Year, date2Month, i = 0, finalOutput = '';
 
   date1Day = date1.split('-');
-  date1Year = date1Day[0].parseInt();
-  date1Month = date1Day[1].parseInt();
-  date1Day = date1Day[date1Day.length - 1].parseInt();
+  console.log(date1Day);
+  date1Year = Number.parseInt(date1Day[0]);
+  date1Month = Number.parseInt(date1Day[1]);
+  date1Day = Number.parseInt(date1Day[date1Day.length - 1]);
   date2Day = date2.split('-');
-  date2Day = date2Day[date2Day.length - 1].parseInt();
-  date2Year = date2Day[0].parseInt();
-  date2Month = date2Day[1].parseInt();
+  date2Day = Number.parseInt(date2Day[date2Day.length - 1]);
+  date2Year = Number.parseInt(date2Day[0]);
+  date2Month = Number.parseInt(date2Day[1]);
 
   console.log(date1Day, date2Day);
 
@@ -29,3 +30,5 @@ function beetweenDays(date1, date2) {
   return date1 + ', ' + finalOutput + date2;
 
 }
+
+console.log(beetweenDays('2019-11-01', '2019-11-10'))
