@@ -21,4 +21,4 @@ function replace_char(word, char_to_replace, replacement) {
     return newWord;
 }
 
-console.log(replace_char('bandung', 'u', 'oe'));
+document.write("bandung di ubah huruf 'u' nya menjadi 'oe' =  ", replace_char('bandung', 'u', 'oe'));

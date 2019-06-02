@@ -20,4 +20,23 @@ function count_vowels($string) {
     return $vowels_count;
 }
 
-echo count_vowels('alphabet');
+//echo "Jumlah Huruf Vokal Dari 'alphabet' adalah : " . count_vowels('alphabet');
+
+function hitung_ganjil($string) {
+    $string = preg_match_all('/[0-9]/i', $string, $matches);
+
+    $odd_num_count = 0;
+    $odd_num = 0;
+    $i = 0;
+
+    for (; $i < count($matches[0]); $i++) {
+        $odd_num = $matches[0][$i] % 2;
+        if ($odd_num != 0) {
+            ++$odd_num_count;
+        }
+    }
+    
+    echo $odd_num_count;
+}
+
+hitung_ganjil('123456789');

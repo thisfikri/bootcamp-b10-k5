@@ -51,7 +51,7 @@ function create_rest_api($file_name) {
         // index pertama adalah status, dan index kedua adalah link rest pai
         return array(
             TRUE,
-            'http://localhost/bootcamp-test-project/rest-api/' . $file_name
+            'http://localhost:7575/repo/bootcamp-b10-k5/rest-api/' . $file_name
         );
     } else {
         return FALSE;

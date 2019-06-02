@@ -8,7 +8,7 @@ if ($_POST) {
     );
 
     $mysqli = new mysqli($configs['host'], $configs['username'], $configs['password'], $configs['database']);
-    $data = $_POST; // tambahkan xss_clean
+    $data = $_POST;
 
     if ($data['action'] == 'anp-btn') {
         $query = "INSERT INTO users (id, name) VALUES ('" . $data['id'] . "', '" . $data['name'] . "');";
